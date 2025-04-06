@@ -27,6 +27,10 @@ int main() {
         cerr << "Error: No tokens generated\n";
         return 1;
     }
+    cout<<"Tokens (" << tokens.size()<<") :\n";
+    for(const auto& t : tokens){
+        cout<<"Type : "<<t.type<<", Value : "<<t.value<<"\n";
+    }
     cout << "Lexical analysis completed. Tokens: " << tokens.size() << "\n";
 
     // 3. Parsing
@@ -55,6 +59,9 @@ int main() {
     if (tac.empty()) {
         cerr << "Error: No intermediate code generated\n";
         return 1;
+    }
+    for(const auto& line : tac){
+        cout<<line<<"\n";
     }
     cout << "3-address code (TAC) generation completed.\n";
 

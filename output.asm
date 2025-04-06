@@ -19,6 +19,8 @@ global _start
 _start:
 
 _pow:
+    ; Input: eax = base, ecx = exponent
+    ; Output: eax = result
     push ebx
     mov ebx, eax
     mov eax, 1
@@ -97,6 +99,7 @@ _pow:
     ; t1 = t11
     mov [t1], eax
 
+    ; Exit program
     mov eax, 1
     xor ebx, ebx
     int 0x80

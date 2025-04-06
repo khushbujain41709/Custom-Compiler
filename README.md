@@ -54,4 +54,5 @@ objdump -d -M intel output.obj
 | `objdump -d -M intel output.obj` | Disassembles the intermediate object file for debugging |
 
 ## Output
-Assembly instructions will be written to `output.asm`
+Assembly instructions will be written to `output.asm`<br>
+Whole output is written in `mainOutput.txt`
