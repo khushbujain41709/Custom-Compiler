@@ -2,13 +2,13 @@
 
 # assemble_custom_code function :
 # Reads assembly file
-# Replaces standalone "KHUS eax, ebx" instructions with custom bytecode (0x0F, 0xAB)
+# Replaces standalone "TAYLOR eax, ebx" instructions with custom bytecode (0x0F, 0xAB)
 # Writes modified assembly to temp.asm
 # Assembles and links using nasm and gcc
 
 # disassemble_and_patch function :
 # Runs objdump to disassemble the executable
-# Patches disassembly to show "KHUS" instead of raw bytes
+# Patches disassembly to show "TAYLOR" instead of raw bytes
 
 import subprocess
 import re
