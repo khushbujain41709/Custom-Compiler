@@ -3,13 +3,15 @@
 Name - Khushbu Jain<br>
 Roll Number - 23115047<br>
 Branch - CSE 4th Semester<br>
-Github Link - https://github.com/khushbujain41709/Custom-Compiler.git
+Github Link - https://github.com/khushbujain41709/Custom-Compiler.git<br>
+This is a custom compiler built in C++ that parses mathematical expressions and generates equivalent x86 assembly code (NASM syntax).
 
 This is a simple custom compiler built in C++ for parsing expressions and generating simulated assembly code.<br>
 I am using the Taylor series expansion of the exponential function e^x to compute its value using assembly. The equation implemented is : <br>
-e(x) = 1 + x + x^2/2 + x^3/6 + x^4/24<br>
+y = 1 + x + x^2/2 + x^3/6 + x^4/24<br>
 This approximation includes the first five terms of the Taylor series.<br>
-The Taylor series is a powerful mathematical tool used to approximate functions as an infinite sum of their derivatives at a single point (usually around x = 0, called a Maclaurin series).
+The Taylor series is a powerful mathematical tool used to approximate functions as an infinite sum of their derivatives at a single point (usually around x = 0, called a Maclaurin series).<br>
+A custom instruction TAYLOR has been defined, which represents harmonic mean :  y = 2 * x * y / (x + y)
 
 ## Features
 
