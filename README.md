@@ -58,3 +58,4 @@ objdump -d -M intel output.obj
 
 ## Output
 Assembly instructions will be written to `output.asm`<br>
+Run khus_asm.py in cmd that is python khus_asm.py to execute output.asm file as machine instructions.
