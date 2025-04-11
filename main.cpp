@@ -6,12 +6,10 @@
 #include "semantic.h"
 #include "icg.h"
 #include "codegen.h"
-
 using namespace std;
-
 int main() {
     // 1. Read input file
-    ifstream infile("C://Users//khushbu//OneDrive//Desktop//Compiler//compiler//input.txt");
+    ifstream infile("C://Users//khushbu//OneDrive//Desktop//Custom_Compiler//compiler//input.txt");
     if (!infile) {
         cerr << "Error: Cannot open input.txt\n";
         return 1;
@@ -66,7 +64,7 @@ int main() {
     cout << "3-address code (TAC) generation completed.\n";
 
     // 6. Generate assembly output
-    string outputPath = "C://Users//khushbu//OneDrive//Desktop//Compiler//compiler//output.asm";
+    string outputPath = "C://Users//khushbu//OneDrive//Desktop//Custom_Compiler//compiler//output.asm";
     ofstream asmfile(outputPath);
     if (!asmfile) {
         cerr << "Error: Cannot create output.asm\n";
@@ -85,6 +83,6 @@ int main() {
     }
     check.close();
 
-    cout << "Successfully created output.txt\n";
+    cout << "Successfully created output.asm\n";
     return 0;
 }

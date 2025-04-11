@@ -3,7 +3,7 @@
 Name - Khushbu Jain<br>
 Roll Number - 23115047<br>
 Branch - CSE 4th Semester<br>
-Github Link - https://github.com/khushbujain41709/Compiler.git
+Github Link - https://github.com/khushbujain41709/Custom-Compiler.git
 
 This is a simple custom compiler built in C++ for parsing expressions and generating simulated assembly code.<br>
 I am using the Taylor series expansion of the exponential function e^x to compute its value using assembly. The equation implemented is : <br>
@@ -56,4 +56,3 @@ objdump -d -M intel output.obj
 
 ## Output
 Assembly instructions will be written to `output.asm`<br>
-Whole output is written in `mainOutput.txt`
